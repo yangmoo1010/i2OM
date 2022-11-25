@@ -1,5 +1,4 @@
 # i2OM
-Run  
 python main.py inputfile outputfile base_type  
 
 base_type is A, C, G, U or T  
