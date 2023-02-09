@@ -25,7 +25,7 @@ def NCP(fastas):
         if i[0] != '>':
             sequence = i
             code = []
-            for aa in range(len(sequence.strip())):
+            for aa in sequence.strip():
                 code = code + chemical_property.get(aa, [0, 0, 0])
                 # print(len(code))
             encodings.append(code)
