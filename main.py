@@ -76,7 +76,7 @@ def myMain(user_fasta_list, type_, out_file):
 					with open(r"fasta_cache/C.fasta", "a+") as data_file:
 						data_file.write(title_two + "\n" + frag + "\n")
 
-			if type_ == "U" or type_ =="all":
+			if type_ == "G" or type_ =="all":
 
 				if frag[20] == "G":
 					gpos.append(l)
